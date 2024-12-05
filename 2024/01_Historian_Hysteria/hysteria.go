@@ -2027,3 +2027,16 @@ func Run(l, r []int) int {
 	}
 	return sum
 }
+
+func RunSimilarityScore(l, r []int) int {
+	rightCounts := make(map[int]int)
+	for _, item := range r {
+		rightCounts[item] += 1
+	}
+	var similarityScore int
+	for _, item := range l {
+		// if key is not found, the zero value is returned, which for ints it 0
+		similarityScore += item * rightCounts[item]
+	}
+	return similarityScore
+}

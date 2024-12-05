@@ -11,6 +11,7 @@ func main() {
 	// r := seeds.ComputeRange()
 	// r := lenslibrary.Compute(lenslibrary.INPUT)
 	// r := lenslibrary.ComputePartTwo(lenslibrary.INPUT)
-	r := historianhysteria.Run(historianhysteria.LeftInput, historianhysteria.RightInput)
+	// r := historianhysteria.Run(historianhysteria.LeftInput, historianhysteria.RightInput)
+	r := historianhysteria.RunSimilarityScore(historianhysteria.LeftInput, historianhysteria.RightInput)
 	println(r)
 }
