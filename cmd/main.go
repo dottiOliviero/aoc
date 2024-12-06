@@ -1,7 +1,7 @@
 package main
 
 import (
-	rednosedreports "advent_of_code/2024/02_Red-Nosed_Reports"
+	mullitover "advent_of_code/2024/03_Mull_it_over"
 )
 
 func main() {
@@ -14,6 +14,7 @@ func main() {
 	// r := historianhysteria.Run(historianhysteria.LeftInput, historianhysteria.RightInput)
 	// r := historianhysteria.Run(historianhysteria.LeftInput, historianhysteria.RightInput)
 	// r := historianhysteria.RunSimilarityScore(historianhysteria.LeftInput, historianhysteria.RightInput)
-	r := rednosedreports.HowManyAreSafe(rednosedreports.INPUT)
+	// r := rednosedreports.HowManyAreSafe(rednosedreports.INPUT)
+	r := mullitover.RunWithOnOff(mullitover.INPUT)
 	println(r)
 }
