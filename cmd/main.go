@@ -1,7 +1,7 @@
 package main
 
 import (
-	mullitover "advent_of_code/2024/03_Mull_it_over"
+	diskfragmenter "advent_of_code/2024/09_Disk_fragmenter"
 )
 
 func main() {
@@ -15,6 +15,7 @@ func main() {
 	// r := historianhysteria.Run(historianhysteria.LeftInput, historianhysteria.RightInput)
 	// r := historianhysteria.RunSimilarityScore(historianhysteria.LeftInput, historianhysteria.RightInput)
 	// r := rednosedreports.HowManyAreSafe(rednosedreports.INPUT)
-	r := mullitover.RunWithOnOff(mullitover.INPUT)
+	// r := mullitover.RunWithOnOff(mullitover.INPUT)
+	r := diskfragmenter.Run()
 	println(r)
 }
